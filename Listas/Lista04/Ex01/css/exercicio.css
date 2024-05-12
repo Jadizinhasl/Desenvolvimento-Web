@@ -1,0 +1,48 @@
+.principal {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div1 {
+    width: 50%;
+    height: 50%;
+    background: #e3c3ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div2 {
+    width: 50%;
+    height: 50%;
+    background: #1d1732;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div3 {
+    width: 50%;
+    height: 50%;
+    background: #78767b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div4 {
+    width: 50%;
+    height: 50%;
+    background: #e2e2e2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
