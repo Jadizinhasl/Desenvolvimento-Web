@@ -1,0 +1,39 @@
+@import url('../css/reset.css');
+
+.imagem-astronauta {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation: animacao-imagem 10s linear infinite;
+    transition: 1s;
+}
+
+.anima-botao {
+    animation: animacao-botao 0.1s;
+}
+
+@keyframes animacao-botao {
+    100% {
+        box-shadow: 0px 0px 139px 40px rgba(222,44,222,1);
+    }
+}
+
+@keyframes animacao-imagem {
+    0% {
+        transform: rotate(360deg);
+        filter: hue-rotate(900deg);
+        border: 10px solid red;
+    }
+
+    30% {
+        border: 10px solid green;
+    }
+
+    60% {
+        border: 10px solid black;
+    }
+
+    100% {
+        border: 10px solid blue;
+    }
+}
