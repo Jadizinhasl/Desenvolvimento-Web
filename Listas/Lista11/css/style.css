@@ -1,0 +1,67 @@
+@import url(./reset.css);
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#calculadora {
+    width: 250px;
+    height: 330px;
+    border: 10px solid #89a5ff;
+    border-radius: 15px;
+    background: #c5d3ff;
+    text-align: center;
+    animation: animacao-borda 5s linear infinite;
+}
+
+#Salario-liquido, #Salario-bruto, #Taxa-imposto, #calcular {
+    border: none;
+    border-radius: 6px;
+}
+
+#Salario-liquido {
+    margin-top: 65px;
+}
+
+#calcular {
+    animation: animacao-botao 4s linear infinite;
+    color: beige;
+    background-color: rgb(160, 160, 253);
+    padding: 5px;
+    cursor: pointer;
+}
+
+#img {
+    width: 120px;
+    height: 120px;
+    margin-top: 50px;
+}
+
+@keyframes animacao-borda {
+    0% {
+        border: 10px solid rgb(0, 38, 255);
+    }
+
+    30% {
+        border: 10px solid rgb(98, 142, 238);
+    }
+
+    60% {
+        border: 10px solid rgb(252, 59, 242);
+    }
+
+    100% {
+        border: 10px solid rgb(218, 138, 243);
+    }
+}
+
+@keyframes animacao-botao {
+    100% {
+        box-shadow: 0px 0px 139px 40px rgb(147, 49, 240);
+    }
+}
